@@ -1,0 +1,122 @@
+/* ===== GLOBAL RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BACKGROUND ===== */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #e8faff;
+    padding: 20px;
+
+    background: linear-gradient(135deg, #001428, #003b3b, #006b4b);
+    background-attachment: fixed;
+}
+
+/* ===== CARD CONTAINERS ===== */
+.card {
+    background: rgba(0, 20, 40, 0.65);
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 900px;
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(0, 255, 200, 0.15);
+}
+
+/* ===== NEON BORDER ===== */
+.neon-border {
+    border: 2px solid #00ffc8;
+    box-shadow: 0 0 12px #00ffc8;
+}
+
+/* ===== HEADINGS ===== */
+h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.glow-text {
+    color: #00ffc8;
+    text-shadow: 0 0 10px #00ffc8;
+}
+
+.section-title {
+    color: #7fffd4;
+    border-left: 4px solid #00ffc8;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+/* ===== IMAGES ===== */
+img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px #00ffc8;
+}
+
+/* ===== LINKS ===== */
+a {
+    color: #7fffd4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00ffc8;
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    border: 1px solid #00ffc8;
+    padding: 12px;
+}
+
+table th {
+    background: rgba(0, 255, 200, 0.1);
+}
+
+/* ===== FORM ===== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #00ffc8;
+    background: rgba(0, 20, 40, 0.5);
+    color: #e8faff;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* ===== BUTTON ===== */
+.neon-button {
+    background: #00ffc8;
+    color: #002020;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 12px #00ffc8;
+}
+
+.neon-button:hover {
+    background: #7fffd4;
+    box-shadow: 0 0 18px #7fffd4;
+}
